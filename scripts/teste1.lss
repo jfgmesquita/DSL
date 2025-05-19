@@ -1,0 +1,8 @@
+agendar:
+    servico: troca_de_oleo
+    cliente: "Ana"
+    data: 12-05-2025
+
+consulta:
+    tipo: servicos
+    periodo: "01-05-2025 a 15-05-2025"
