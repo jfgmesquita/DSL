@@ -1,4 +1,4 @@
-# LSS (Domain-Specific Language) 
+# DSL (Domain-Specific Language) 
 
 This repository contains the **LSS (Domain-Specific Language)** interpreter for the SGPC (Fuel Station Management System) project.
 
