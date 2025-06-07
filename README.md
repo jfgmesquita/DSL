@@ -1,8 +1,8 @@
 # DSL (Domain-Specific Language) 
 
-This repository contains the **LSS (Domain-Specific Language)** interpreter for the SGPC (Fuel Station Management System) project.
+This repository contains the **DSL (Domain-Specific Language)** interpreter for the SGPC (Fuel Station Management System) project.
 
-The LSS allows service staff to interact with the system using simple, expressive commands for scheduling services, managing availability, requesting vacations, running reports, and more.
+The DSL allows service staff to interact with the system using simple, expressive commands for scheduling services, managing availability, requesting vacations, running reports, and more.
 
 ---
 
@@ -19,7 +19,7 @@ The LSS allows service staff to interact with the system using simple, expressiv
 
 ---
 
-## 📄 Example LSS Script
+## 📄 Example DSL Script
 
 ```lss
 def morning_shift():
@@ -36,11 +36,11 @@ schedule:
 
 ## 🚀 How to Use
 
-1. Write your LSS script in a `.lss` file
+1. Write your script in a `.lss` file
 2. Run the interpreter:
 
 ```bash
-python main.py scripts/my_script.lss
+python main.py tests/my_script.lss
 ```
 
 ---
@@ -53,13 +53,25 @@ python main.py scripts/my_script.lss
 
 ---
 
+## ⚙️ Installation
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
 ## 📁 Project Structure
 
-- `lexer.py` – Token definitions for the LSS language
-- `parser.py` – Grammar rules using PLY yacc
-- `executor.py` – Interpreter that executes parsed AST
+- `lss/lexer.py` – Token definitions for the LSS language
+- `lss/parser.py` – Grammar rules using PLY yacc
+- `lss/executor.py` – Interpreter that executes parsed AST
 - `main.py` – Entry point for running LSS scripts
-- `scripts/` – Sample `.lss` scripts
+- `clean.py` – Utility script for cleaning up generated files or outputs
+- `requirements.txt` – Python dependencies for the project
+- `tests/` – Sample `.lss` scripts and/or test files
 
 ---
 

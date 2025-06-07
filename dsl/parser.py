@@ -1,5 +1,5 @@
 import ply.yacc as yacc
-from lss.lexer import tokens
+from dsl.lexer import tokens
 
 def p_program(p):
     '''program : statement_list'''

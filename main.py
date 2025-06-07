@@ -1,6 +1,6 @@
-from lss.lexer import lexer
-from lss.parser import parser
-from lss.executor import execute
+from dsl.lexer import lexer
+from dsl.parser import parser
+from dsl.executor import execute
 import sys
 
 if len(sys.argv) != 2:
