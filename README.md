@@ -30,8 +30,6 @@ schedule:
     service: "oil change"
     customer: "Ana Costa"
     date: 2025-03-12
-
-morning_shift()
 ```
 
 ---
