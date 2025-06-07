@@ -1,0 +1,6 @@
+funcionarios_folga = ["Joao", "Ana", "Carlos"]
+
+indisponibilidade:
+    para: funcionarios_folga
+    data: 01-05-2025
+    motivo: "feriado"

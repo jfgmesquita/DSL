@@ -1,0 +1,14 @@
+batch:
+    indisponibilidade:
+        data: 01-05-2025
+        motivo: "feriado"
+
+    ferias:
+        de: 01-08-2025
+        a: 15-08-2025
+        motivo: "verao"
+        
+    servico:
+        concluido: "revisao geral"
+        cliente: "Pedro Almeida"
+        data: 20-02-2025
