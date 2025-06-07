@@ -1,0 +1,5 @@
+agendar:
+    servico: "troca de oleo"
+    cliente: "Ana Costa"
+    data: 12-03-2025
+    prioridade: alta

@@ -1,0 +1,8 @@
+dia = "sabado"
+
+if dia == "sabado" or dia == "domingo":
+    indisponibilidade:
+        motivo: "folga"
+else:
+    disponibilidade:
+        turno: manha
