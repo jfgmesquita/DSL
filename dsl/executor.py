@@ -15,18 +15,18 @@ def execute(ast):
                 for key, value in definitions[funcname].items():
                     print(f"{key} = {value}")
             else:
-                print(f"[call] Erro: função '{funcname}' não definida")
+                print(f"[call] Erro: funcao '{funcname}' nao definida")
 
         elif entry[0] == 'def':
             _, name, body = entry
             definitions[name] = body
-            print(f"[def] Função '{name}' registada")
+            print(f"[def] Funcao '{name}' registada")
 
         elif entry[0] == 'if':
             _, expr, then_block, else_block = entry
             result = eval_expression(expr)
             branch = then_block if result else else_block
-            print(f"[if] Condição {'verdadeira' if result else 'falsa'} → executa bloco")
+            print(f"[if] Condicao {'verdadeira' if result else 'falsa'} → executa bloco")
             execute(branch)
 
         else:
